@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{827f8f72-962c-465e-a351-3cd77d16f5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7e12e0b1-adfd-4a57-a14a-c48192907aa0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\base64.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\binary.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cipher.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\database.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entry.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exception.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\format.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\group.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\icon.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\iterator.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kdb.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kdbx.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\key.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\metadata.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pugiconfig.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pugixml.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\random.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\security.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stream.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\temporal.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\strptime.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cipher.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entry.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\group.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kdb.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kdbx.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\key.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\metadata.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pugixml.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strptime.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
