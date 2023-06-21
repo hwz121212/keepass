@@ -121,7 +121,6 @@
       <PreprocessorDefinitions>__x86_64__;_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\zlib-1.2.12\include</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -138,7 +137,6 @@
       <PreprocessorDefinitions>__x86_64__;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>include;$(SolutionDir)thirdparty;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\zlib-1.2.12\include</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
